@@ -46,7 +46,7 @@ MuseScore {
             case  9: text.text = qsTranslate("Inspectorsmbitus", "d♭")  + text.text; break;
             case 10: text.text = qsTranslate("Inspectorsmbitus", "se")  + text.text; break;
             case 11: text.text = qsTranslate("Inspectorsmbitus", "ro")  + text.text; break;
-            case 12: text.text = qsTranslate("Inspectorsmbitus", "l♭")  + text.text; break;
+            case 12: text.text = qsTranslate("Inspectorsmbitus", "le")  + text.text; break;
             case 13: text.text = qsTranslate("Inspectorsmbitus", "ma")   + text.text; break;
             case 14: text.text = qsTranslate("Inspectorsmbitus", "ta")   + text.text; break;
             case 15: text.text = qsTranslate("Inspectorsmbitus", "f")   + text.text; break;
