@@ -1,0 +1,12 @@
+Instruction:
+
+To make the plugin work.
+1. Copy the qml files to plugins directory.
+2. Open musescore and create a new score with the key signatures D major or Bb.
+3. Begin your composition.
+3. Now go to plugins >plugin manager > reload plugin > check mark Bb and D# plugins.
+4. To add solfa notation to specific measure, select the notes then goto >>plugins > notes > Bb or D# based on your key signature.
+5. To add solfa to entire composition, select all by pressing CMD+A or CRTL+A, plugins>>notes>>Bb or D#.
+
+*****Caution*****
+Do not apply this plugin more than once else it will result in duplicate solfege.
