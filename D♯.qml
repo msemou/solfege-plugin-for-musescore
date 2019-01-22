@@ -7,6 +7,7 @@
 //  Copyright (C) 2012 Werner Schweer
 //  Copyright (C) 2013 - 2017 Joachim Schmitz
 //  Copyright (C) 2014 Jörn Eichler
+//  Copyright (C) 2019 Javaspell (modified to solfege plugin v 1.0.0)
 //
 //  This program is free software; you can redistribute it and/or modify
 //  it under the terms of the GNU General Public License version 2
@@ -38,13 +39,13 @@ MuseScore {
             case  3: text.text = qsTranslate("Inspectorsmbitus", "s♭♭") + text.text; break;
             case  4: text.text = qsTranslate("Inspectorsmbitus", "r♭♭") + text.text; break;
             case  5: text.text = qsTranslate("Inspectorsmbitus", "l♭♭") + text.text; break;
-            case  6: text.text = qsTranslate("Inspectorsmbitus", "m♭")  + text.text; break;
-            case  7: text.text = qsTranslate("Inspectorsmbitus", "t♭")  + text.text; break;
+            case  6: text.text = qsTranslate("Inspectorsmbitus", "ma")  + text.text; break;
+            case  7: text.text = qsTranslate("Inspectorsmbitus", "ta")  + text.text; break;
 
             case  8: text.text = qsTranslate("Inspectorsmbitus", "f♭")  + text.text; break;
             case  9: text.text = qsTranslate("Inspectorsmbitus", "d♭")  + text.text; break;
-            case 10: text.text = qsTranslate("Inspectorsmbitus", "s♭")  + text.text; break;
-            case 11: text.text = qsTranslate("Inspectorsmbitus", "r♭")  + text.text; break;
+            case 10: text.text = qsTranslate("Inspectorsmbitus", "se")  + text.text; break;
+            case 11: text.text = qsTranslate("Inspectorsmbitus", "ro")  + text.text; break;
             case 12: text.text = qsTranslate("Inspectorsmbitus", "l♭")  + text.text; break;
             case 13: text.text = qsTranslate("Inspectorsmbitus", "ma")   + text.text; break;
             case 14: text.text = qsTranslate("Inspectorsmbitus", "ta")   + text.text; break;
