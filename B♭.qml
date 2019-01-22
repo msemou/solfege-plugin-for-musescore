@@ -7,6 +7,7 @@
 //  Copyright (C) 2012 Werner Schweer
 //  Copyright (C) 2013 - 2017 Joachim Schmitz
 //  Copyright (C) 2014 Jörn Eichler
+//  Copyright (C) 2019 Javaspell (modified to solfege plugin)
 //
 //  This program is free software; you can redistribute it and/or modify
 //  it under the terms of the GNU General Public License version 2
@@ -41,9 +42,9 @@ MuseScore {
             case  6: text.text = qsTranslate("Inspectortmbitus", "s♭")  + text.text; break;
             case  7: text.text = qsTranslate("Inspectortmbitus", "r♭")  + text.text; break;
 
-            case  8: text.text = qsTranslate("Inspectortmbitus", "l♭")  + text.text; break;
-            case  9: text.text = qsTranslate("Inspectortmbitus", "m♭")  + text.text; break;
-            case 10: text.text = qsTranslate("Inspectortmbitus", "t♭")  + text.text; break;
+            case  8: text.text = qsTranslate("Inspectortmbitus", "le")  + text.text; break;
+            case  9: text.text = qsTranslate("Inspectortmbitus", "ma")  + text.text; break;
+            case 10: text.text = qsTranslate("Inspectortmbitus", "ta")  + text.text; break;
             case 11: text.text = qsTranslate("Inspectortmbitus", "f")  + text.text; break;
             case 12: text.text = qsTranslate("Inspectortmbitus", "d")  + text.text; break;
             case 13: text.text = qsTranslate("Inspectortmbitus", "s")   + text.text; break;
@@ -55,12 +56,12 @@ MuseScore {
             case 19: text.text = qsTranslate("Inspectortmbitus", "d")   + text.text; break;
 
             case 20: text.text = qsTranslate("Inspectortmbitus", "se")  + text.text; break;
-            case 21: text.text = qsTranslate("Inspectortmbitus", "r♯")  + text.text; break;
-            case 22: text.text = qsTranslate("Inspectortmbitus", "l♯")  + text.text; break;
+            case 21: text.text = qsTranslate("Inspectortmbitus", "ri")  + text.text; break;
+            case 22: text.text = qsTranslate("Inspectortmbitus", "li")  + text.text; break;
             case 23: text.text = qsTranslate("Inspectortmbitus", "m♯")  + text.text; break;
             case 24: text.text = qsTranslate("Inspectortmbitus", "t♯")  + text.text; break;
-            case 25: text.text = qsTranslate("Inspectortmbitus", "f♯")  + text.text; break;
-            case 26: text.text = qsTranslate("Inspectortmbitus", "d♯")  + text.text; break;
+            case 25: text.text = qsTranslate("Inspectortmbitus", "fe")  + text.text; break;
+            case 26: text.text = qsTranslate("Inspectortmbitus", "e")  + text.text; break;
             case 27: text.text = qsTranslate("Inspectortmbitus", "s♯♯") + text.text; break;
             case 28: text.text = qsTranslate("Inspectortmbitus", "r♯♯") + text.text; break;
             case 29: text.text = qsTranslate("Inspectortmbitus", "l♯♯") + text.text; break;
