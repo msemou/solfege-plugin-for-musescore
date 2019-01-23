@@ -32,18 +32,18 @@ MuseScore {
          if (typeof notes[i].tpc === "undefined") // like for grace notes ?!?
             return
          switch (notes[i].tpc) {
-           case -1: text.text = qsTranslate("Inspectorsmbitus", "m♭♭") + text.text; break;
-            case  0: text.text = qsTranslate("Inspectorsmbitus", "t♭♭") + text.text; break;
-            case  1: text.text = qsTranslate("Inspectorsmbitus", "f♭♭") + text.text; break;
-            case  2: text.text = qsTranslate("Inspectorsmbitus", "d♭♭") + text.text; break;
-            case  3: text.text = qsTranslate("Inspectorsmbitus", "s♭♭") + text.text; break;
-            case  4: text.text = qsTranslate("Inspectorsmbitus", "r♭♭") + text.text; break;
-            case  5: text.text = qsTranslate("Inspectorsmbitus", "l♭♭") + text.text; break;
+           case -1: text.text = qsTranslate("Inspectorsmbitus", "r") + text.text; break;
+            case  0: text.text = qsTranslate("Inspectorsmbitus", "l") + text.text; break;
+            case  1: text.text = qsTranslate("Inspectorsmbitus", "ma") + text.text; break;
+            case  2: text.text = qsTranslate("Inspectorsmbitus", "ta") + text.text; break;
+            case  3: text.text = qsTranslate("Inspectorsmbitus", "f") + text.text; break;
+            case  4: text.text = qsTranslate("Inspectorsmbitus", "d") + text.text; break;
+            case  5: text.text = qsTranslate("Inspectorsmbitus", "s") + text.text; break;
             case  6: text.text = qsTranslate("Inspectorsmbitus", "ma")  + text.text; break;
             case  7: text.text = qsTranslate("Inspectorsmbitus", "ta")  + text.text; break;
 
-            case  8: text.text = qsTranslate("Inspectorsmbitus", "f♭")  + text.text; break;
-            case  9: text.text = qsTranslate("Inspectorsmbitus", "d♭")  + text.text; break;
+            case  8: text.text = qsTranslate("Inspectorsmbitus", "m")  + text.text; break;
+            case  9: text.text = qsTranslate("Inspectorsmbitus", "t")  + text.text; break;
             case 10: text.text = qsTranslate("Inspectorsmbitus", "se")  + text.text; break;
             case 11: text.text = qsTranslate("Inspectorsmbitus", "ro")  + text.text; break;
             case 12: text.text = qsTranslate("Inspectorsmbitus", "le")  + text.text; break;
@@ -62,13 +62,13 @@ MuseScore {
             case 24: text.text = qsTranslate("Inspectorsmbitus", "se")  + text.text; break;
             case 25: text.text = qsTranslate("Inspectorsmbitus", "ri")  + text.text; break;
             case 26: text.text = qsTranslate("Inspectorsmbitus", "li")  + text.text; break;
-            case 27: text.text = qsTranslate("Inspectorsmbitus", "m♯♯") + text.text; break;
-            case 28: text.text = qsTranslate("Inspectorsmbitus", "t♯♯") + text.text; break;
-            case 29: text.text = qsTranslate("Inspectorsmbitus", "f♯♯") + text.text; break;
-            case 30: text.text = qsTranslate("Inspectorsmbitus", "d♯♯") + text.text; break;
-            case 31: text.text = qsTranslate("Inspectorsmbitus", "s♯♯") + text.text; break;
-            case 32: text.text = qsTranslate("Inspectorsmbitus", "r♯♯") + text.text; break;
-            case 33: text.text = qsTranslate("Inspectorsmbitus", "l♯♯") + text.text; break;
+            case 27: text.text = qsTranslate("Inspectorsmbitus", "fe") + text.text; break;
+            case 28: text.text = qsTranslate("Inspectorsmbitus", "de") + text.text; break;
+            case 29: text.text = qsTranslate("Inspectorsmbitus", "s") + text.text; break;
+            case 30: text.text = qsTranslate("Inspectorsmbitus", "r") + text.text; break;
+            case 31: text.text = qsTranslate("Inspectorsmbitus", "l") + text.text; break;
+            case 32: text.text = qsTranslate("Inspectorsmbitus", "m") + text.text; break;
+            case 33: text.text = qsTranslate("Inspectorsmbitus", "t") + text.text; break;
             default: text.text = qsTr("?")   + text.text; break;
          } // end switch tpc
 
