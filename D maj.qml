@@ -20,7 +20,7 @@ import MuseScore 1.0
 MuseScore {
    version: "2.0"
    description: qsTr("This plugin names notes as per your language setting")
-   menuPath: "Plugins.Notes." + qsTr("D") // this does not work, why?
+   menuPath: "Plugins.Notes." + qsTr("D major") // this does not work, why?
 
    function nameChord (notes, text) {
       for (var i = 0; i < notes.length; i++) {
