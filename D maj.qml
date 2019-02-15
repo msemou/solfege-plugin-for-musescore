@@ -7,6 +7,7 @@
 //  Copyright (C) 2012 Werner Schweer
 //  Copyright (C) 2013 - 2017 Joachim Schmitz
 //  Copyright (C) 2014 Jörn Eichler
+//  Copyright (C) 2019 Javaspell (modified to solfa plugin)
 //
 //  This program is free software; you can redistribute it and/or modify
 //  it under the terms of the GNU General Public License version 2
