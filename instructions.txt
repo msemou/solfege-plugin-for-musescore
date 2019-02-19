@@ -1,12 +1,21 @@
 Instruction:
 
 To make the plugin work.
-1. Copy the qml files to plugins directory.
-2. Open musescore and create a new score with the key signatures D major or Bb.
+1. Copy the qml files to plugins directory
+  a. C:\Program Files (x86)\MuseScore 2\Plugins
+  OR
+  b. C:\Program Files\MuseScore 2\Plugins
+2. Open musescore and create a new score.
 3. Begin your composition.
-3. Now go to plugins >plugin manager > reload plugin > check mark Bb and D# plugins.
-4. To add solfa notation to specific measure, select the notes then goto >>plugins > notes > Bb or D# based on your key signature.
+3. Now go to plugins >plugin manager > reload plugin > Select the plugin corresponding to the score's key signature.
+4. To add solfa notation to specific measure, select the notes then goto >>plugins > notes > Select the solfa plugin based on key signature.
 5. To add solfa to entire composition, select all by pressing CMD+A or CRTL+A, plugins>>notes>>Bb or D#.
 
 *****Caution*****
 Do not apply this plugin more than once else it will result in duplicate solfege.
+
+***** Best Practices *****
+-For Grand Staff involving 2 voices, always use SP and tenor as voice one and Bass and Alto as Voice Two to avoid overlaps of solfa notation.
+
+**** Note ***
+This plugin support staves with only two voices, additionsal voices will require manual positioning of solfa notations.
